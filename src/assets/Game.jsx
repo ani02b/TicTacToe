@@ -29,7 +29,7 @@ const Game = () => {
   const resetGame = () => {
     setHistory([Array(9).fill(null)]);
     setStepNumber(0);
-    setXIsNext(!xIsNext);
+    setXIsNext(true);
   };
 
   return (
